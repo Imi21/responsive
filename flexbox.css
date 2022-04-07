@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-color: black;
+  padding: 1em;
+  
+}
+
+header {
+  background-color: aqua;
+  padding: 1em;
+}
+
+.hero {
+  background-color: crimson;
+  padding: 1em;
+}
+
+section {
+  background-color: darkgreen;
+  padding: 1em;
+}
+
+aside {
+  background-color: blueviolet;
+  padding: 1em;
+}
+
+footer {
+  background-color: rgb(53, 6, 6);
+  padding: 1em;
+}
+
+@media (min-width: 768px)  {
+  
+  .par {
+    display: flex;
+    max-width: 850px;
+    margin: auto;
+
+  }
+}
